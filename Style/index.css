@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-shadow: none;
+}
+html,body{
+    font-size: 62.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+html,body{
+    height: 100%;
+}
+.all{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    background: teal;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    height: 35rem;
+    width: 35rem;
+    background: rgb(214, 190, 203);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+}
+#student-name-input, .time{
+    width: 20rem;
+    height: 4rem;
+    margin: 1rem;
+    border: none;
+    background: rgb(56, 82, 115);
+}
+.right{
+    background: mediumturquoise;
+    width: 50%;
+    height: 100%;
+}
+ul{
+    list-style: none;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    font-size: 3rem;
+}
+button{
+    width: 20rem;
+    height: 4rem;
+    background: rgb(212, 113, 113);
+    border: none;
+}
+.section{
+    max-height: 30rem;
+    overflow-y: auto;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+#list-container {
+  max-height: 65rem;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  background: white;
+  width: 30rem;
+  border-radius: 3rem;
+  padding: 1rem;
+}
+
+#student-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#input-container {
+  display: flex;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#student-name-input {
+  flex-grow: 1;
+}
+
+#add-button {
+  padding: 0.5rem 1rem;
+}
+h2{
+    font-size: 3rem;
+}
